@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:background="#F0418E"
+    android:orientation="vertical"
+    android:id="@+id/home">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:layout_weight="1"
+        >
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:background="@drawable/gallery"
+            android:onClick="gallery"
+            android:contentDescription="@string/galarydes"
+            android:id="@+id/imageButton" />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:background="@drawable/web"
+            android:contentDescription="@string/webdes"
+            android:onClick="web"
+            android:id="@+id/imageButton1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:background="@drawable/te"
+            android:onClick="music"
+            android:contentDescription="@string/musdes"
+            android:id="@+id/imageButton2" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:background="@drawable/fav"
+            android:onClick="favourite"
+            android:contentDescription="@string/favdes"
+            android:id="@+id/imageButton3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/porshi"
+            android:onClick="about"
+            android:contentDescription="@string/aboutdes"
+            android:id="@+id/imageButton4" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+<!-- From: file:/C:/Users/Root/StudioProjects/RingtonesApplicationTemplate/app/src/main/res/layout/activity_home.xml -->

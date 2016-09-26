@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLargeInverse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar1"
+        android:layout_gravity="center_horizontal" />
+
+    <WebView
+        android:id="@+id/webView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+
+</LinearLayout>
+<!-- From: file:/C:/Users/Root/StudioProjects/RingtonesApplicationTemplate/app/src/main/res/layout/activity_site.xml -->
